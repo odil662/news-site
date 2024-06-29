@@ -1,0 +1,63 @@
+.favorites {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.favorites h1 {
+    color: #ff6600;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.favoriteList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.favoriteList li {
+    background-color: #f6f6ef;
+    border: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.favoriteList a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.favoriteList a:hover {
+    text-decoration: underline;
+}
+
+.favoriteList p {
+    color: #828282;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.removeButton {
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.removeButton:hover {
+    background-color: #ff6347;
+}
+
+@media (max-width: 600px) {
+    .favorites {
+        padding: 10px;
+    }
+
+    .favorites h1 {
+        font-size: 20px;
+    }
+}

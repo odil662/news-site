@@ -1,0 +1,96 @@
+.home {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.home h1 {
+    color: #ff6600;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.tabs button {
+    background-color: #f6f6ef;
+    border: 1px solid #e6e6e6;
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.tabs button.active {
+    background-color: #ff6600;
+    color: white;
+}
+
+.updateButton {
+    background-color: #4CAF50;
+}
+
+.storyList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.storyList li {
+    background-color: #f6f6ef;
+    border: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.storyList a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.storyList a:hover {
+    text-decoration: underline;
+}
+
+.storyList p {
+    color: #828282;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.favoriteButton {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #ff6600;
+}
+
+.storyBody {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+    .home {
+        padding: 10px;
+    }
+
+    .home h1 {
+        font-size: 20px;
+    }
+
+    .tabs button {
+        padding: 8px 16px;
+        font-size: 14px;
+        flex: 1 0 auto;
+    }
+}
